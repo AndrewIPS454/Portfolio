@@ -1,11 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ren — Creative Portfolio</title>
-<style>
-* { box-sizing: border-box; }
+<header>
+  <span style="font-size: 18pt;">Andrew Peterson Santos.
+    <br>
+    <span style="font-size: 12pt;">
+      <a href="mailto:AndrewIPS454@gmail.com">AndrewIPS454@gmail.com</a>
+      <br>
+    </span>
+    <br>
+  </span>
+  <br>
+  <br>
+  <br>
+  <nav aria-label="Main navigation">
+    <br>
+  </nav>
+</header>
+<main>
+  <section class="hero" aria-labelledby="intro">
+    <div class="circle" aria-hidden="true">&nbsp;</div>
+    <h1 id="intro">GIS &amp; Remote Sensing Portfolio.</h1>
+    <p class="intro">I’m Andrew, a geospatial science student interested in empirical geographical research through remote sensing and GIS analysis.</p>
+    <a href="#work">Explore Projects</a>↗
+    <hr>
+    <h2>
+      <strong>
+        <span style="text-decoration: underline;">Skills &amp; Experience</span>
+      </strong>
+    </h2>
+    <span style="text-decoration: underline;">
+      <strong>Software</strong>
+    </span>
+    <br>ArcGIS Pro
+    <br>ArcGIS StoryMaps
+    <br>ENVI
+    <br>Excel
+    <br>R
+    <br>
+    <br>
+    <span style="text-decoration: underline;">
+      <strong>Relevant Past Experience
+        <br>
+      </strong>
+    </span>Applying Indies to Multispectral Raster Data
+    <br>Working with Lidar Pointcloud Data
+    <br>Creating &amp; working with DEMs
+    <br>Automating workflow through Envi model manager
+    <br>Running Supervised &amp; Unsupervised Classification models
+    <br>Producing Finished Maps
+    <br>
+  </section>
+  <section id="work" aria-labelledby="work-title">
+    <div class="projects">
+      <article>
+        <h3>
+          <span style="font-size: 24px;">
+            <strong style="font-size: 16px;">
+              <span style="text-decoration: underline;">
+                <span style="font-size: 18pt;">Maps &amp; Projects</span>
+                <br>
+              </span>
+            </strong>
+          </span>
+          <br>
+          <img src="https://share1.cloudhq-mkt3.net/b77c8b69dbe8b7.png" alt="" width="890" height="1097"> 
+          <br>
+          <em>2024 Aveiro Fires NBR Analsis / May 2025
+            <br>
+          </em>
+          <br>
+          <img src="https://share1.cloudhq-mkt3.net/a6eb5b1594ed03.jpeg" alt="" width="890" height="943">
+          <br>
+          <em>Portugal's Lisbon-Porto Rail Line in the 1980s / Oct 2025
+            <br>
+          </em>
+          <br>
+        </h3>
+        <h3>
+          <img src="https://share1.cloudhq-mkt3.net/8810d1e01abe1e.png" alt="" width="897" height="1408">
+          <br>
+          <em>dNBR Analysis of the Pedrógão Grande Wildfire
+            <a href="https://arcg.is/1eKa0r">(Part of a Storymap)</a> / Dec 2025
+            <br>
+            <br>
+          </em>
+        </h3>
+        <h3>
+          <img src="https://share1.cloudhq-mkt3.net/39f714dfa4ee80.jpeg" alt="" width="895" height="1407">
+        </h3>
+        <h3>
+          <em>Regrowth Analysis of the Pedrógão Grande Wildfire 
+            <a href="https://arcg.is/1eKa0r">(Part of a Storymap)</a> / Dec 2025
+            <br>
+          </em>
+        </h3>
+      </article>
+    </div>
+  </section>
+</main>
+<style>* { box-sizing: border-box; }
 body {
 margin: 0;
 background: #f4f1e9;
@@ -84,48 +175,4 @@ a:focus-visible { outline: 2px solid #a34c3e; outline-offset: 6px; }
 .projects { grid-template-columns: 1fr; }
 .hero { padding: 45px 0; }
 nav { gap: 16px; }
-}
-</style>
-</head>
-<body>
-<header>
-<a class="logo" href="#" aria-label="Ren home">ren.</a>
-<nav aria-label="Main navigation">
-<a href="#work">Work</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
-<main>
-<section class="hero" aria-labelledby="intro">
-<div class="circle" aria-hidden="true"></div>
-<p class="eyebrow">Designer · Maker · Observer</p>
-<h1 id="intro">Space for<br>what matters.</h1>
-<p class="intro">
-I’m Ren, a designer finding beauty in simplicity,
-natural forms, and thoughtful everyday experiences.
-</p>
-<a href="#work">Explore selected work </a>↗
-</section>
-<section id="work" aria-labelledby="work-title">
-<h2 id="work-title">Selected work</h2>
-<div class="projects">
-<article>
-<div class="art" aria-hidden="true"><div class="stone"></div></div>
-<h3>Still Form</h3>
-<p>Brand identity / 2026</p>
-</article>
-<article>
-<div class="art sand" aria-hidden="true"></div>
-<h3>Quiet Patterns</h3>
-<p>Digital experience / 2026</p>
-</article>
-</div>
-</section>
-<section id="contact">
-<h2>Let’s create something thoughtful.</h2>
-<a href="mailto:hello@example.com">hello@example.com </a>↗
-</section>
-</main>
-<footer>© 2026 Ren · Made with intention.</footer>
-</body>
-</html>
+}</style>
